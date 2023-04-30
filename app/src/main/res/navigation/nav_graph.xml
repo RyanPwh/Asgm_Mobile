@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/settingsFragment">
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.asgm_mobile.SettingsFragment"
+        android:label="setting_activity"
+        tools:layout="@layout/setting_activity" >
+
+        <action
+            android:id="@+id/action_settingsFragment_to_aboutus"
+            app:destination="@id/aboutus" />
+        <action
+            android:id="@+id/action_settingsFragment_to_privacyPolicy"
+            app:destination="@id/privacyPolicy" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutus"
+        android:name="com.example.asgm_mobile.Aboutus"
+        android:label="about_us"
+        tools:layout="@layout/about_us" >
+        <action
+            android:id="@+id/action_aboutus_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicy"
+        android:name="com.example.asgm_mobile.PrivacyPolicy"
+        android:label="PrivacyPolicy"
+        tools:layout="@layout/privacy_policy" >
+        <action
+            android:id="@+id/action_privacyPolicy_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+
+</navigation>
