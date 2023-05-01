@@ -42,7 +42,7 @@ class SettingsFragment : Fragment() {
     }
 
     private fun callToast1(){
-        Toast.makeText(context,"Please Change Your System Dark/Light to Proceed!", Toast.LENGTH_LONG).show()
+        Toast.makeText(context,"Please Change Your System Dark/Light Mode to Proceed!", Toast.LENGTH_LONG).show()
     }
 
 
