@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_settingsFragment_to_privacyPolicy"
             app:destination="@id/privacyPolicy" />
+        <action
+            android:id="@+id/action_settingsFragment_to_contactus"
+            app:destination="@id/contactus" />
     </fragment>
     <fragment
         android:id="@+id/aboutus"
@@ -33,6 +36,15 @@
         tools:layout="@layout/privacy_policy" >
         <action
             android:id="@+id/action_privacyPolicy_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactus"
+        android:name="com.example.asgm_mobile.Contactus"
+        android:label="contact_us"
+        tools:layout="@layout/contact_us" >
+        <action
+            android:id="@+id/action_contactus_to_settingsFragment"
             app:destination="@id/settingsFragment" />
     </fragment>
 

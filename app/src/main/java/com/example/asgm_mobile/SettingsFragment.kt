@@ -28,6 +28,10 @@ class SettingsFragment : Fragment() {
 
         binding.langSetting.setOnClickListener{callToast()}
 
+        binding.CUButton.setOnClickListener{view: View ->
+            view.findNavController()
+                .navigate(R.id.action_settingsFragment_to_contactus)}
+
         return binding.root
     }
 

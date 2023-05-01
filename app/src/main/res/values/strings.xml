@@ -44,6 +44,9 @@ We may use the personal information we collect for the following purposes:
 - Contact Us
 
     If you have any questions about this Privacy Policy or our privacy practices, please contact us at ecoEarth@gmail.com.</string>
-    <string name="dialogMsg">Our Application will follow your system language. In order to change this application, You will required to change your system language in your phone setting. Thank you.</string>
-    <string name="okDialog">OK</string>
+    <string name="contentCUAddress">A-88-4, ABC Tower, Jalan EFG, 45009 Kuala Lumpur, Malaysia</string>
+    <string name="contentCUpn">+6011-23456789</string>
+    <string name="contentCUea">ecoEarth@gmail.com</string>
+    <string name="feedbackTxt">Thanks for letting us know your feedback after using our application. We will listen to your advice and make changes to this application.</string>
+    <string name="feedbackTxt2">Click this Button to give us your feedback.</string>
 </resources>
