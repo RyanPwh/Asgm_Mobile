@@ -32,11 +32,17 @@ class SettingsFragment : Fragment() {
             view.findNavController()
                 .navigate(R.id.action_settingsFragment_to_contactus)}
 
+        binding.themeSetting.setOnClickListener{callToast1()}
+
         return binding.root
     }
 
     private fun callToast(){
         Toast.makeText(context,"Please Change Your System Languages to Proceed!", Toast.LENGTH_LONG).show()
+    }
+
+    private fun callToast1(){
+        Toast.makeText(context,"Please Change Your System Dark/Light to Proceed!", Toast.LENGTH_LONG).show()
     }
 
 
