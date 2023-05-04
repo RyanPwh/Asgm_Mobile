@@ -47,6 +47,20 @@
             android:id="@+id/action_contactus_to_settingsFragment"
             app:destination="@id/settingsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/community"
+        android:name="com.example.asgm_mobile.Community"
+        android:label="community"
+        tools:layout="@layout/community" >
+        <action
+            android:id="@+id/action_community_to_communityPost"
+            app:destination="@id/communityPost" />
+    </fragment>
+    <fragment
+        android:id="@+id/communityPost"
+        android:name="com.example.asgm_mobile.CommunityPost"
+        android:label="community_post"
+        tools:layout="@layout/community_post" />
 
 
 </navigation>
