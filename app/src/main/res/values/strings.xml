@@ -50,5 +50,5 @@ We may use the personal information we collect for the following purposes:
     <string name="feedbackTxt">Thanks for letting us know your feedback after using our application. We will listen to your advice and make changes to this application.</string>
     <string name="feedbackTxt2">Click this Button to give us your feedback.</string>
     <string name="eduContent">In this section, You will learn about climate changes. This is the top 10 video that all of the people have voted. Hope you can enjoy this 10 videos. And of course you can go to YouTube to learn more details about climate changes.</string>
-    <string name="comContent">In this section, All of the event below is going on in the future. Fell free to check each of it!</string>
+    <string name="comContent">In this section, All of the event below is going on in the future. If you got a event to conduct, fell free to add it into here. Hope everyone enjoy this section and help to save the earth together.</string>
 </resources>

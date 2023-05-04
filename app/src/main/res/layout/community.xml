@@ -8,6 +8,21 @@
     android:theme="@style/Theme.Asgm_Mobile"
     tools:context=".Community">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="50dp"
+        android:clickable="true"
+        android:src="@android:drawable/ic_input_add"
+        app:layout_constraintBottom_toTopOf="@+id/conComTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/comTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/comTitle"
         android:layout_width="wrap_content"
@@ -56,4 +71,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" />
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
