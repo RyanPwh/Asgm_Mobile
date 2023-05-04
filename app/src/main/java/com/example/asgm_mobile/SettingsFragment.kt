@@ -34,6 +34,10 @@ class SettingsFragment : Fragment() {
 
         binding.themeSetting.setOnClickListener{callToast1()}
 
+        binding.button.setOnClickListener{view: View->
+            view.findNavController()
+                .navigate(R.id.action_settingsFragment_to_community)}
+
         return binding.root
     }
 
