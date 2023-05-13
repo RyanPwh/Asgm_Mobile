@@ -23,7 +23,6 @@ class CommunityPost : Fragment() {
 
         binding.doneBtn.setOnClickListener{addevent()}
 
-
         return binding.root
     }
 

@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_settingsFragment_to_contactus"
             app:destination="@id/contactus" />
+        <action
+            android:id="@+id/action_settingsFragment_to_community"
+            app:destination="@id/community" />
     </fragment>
     <fragment
         android:id="@+id/aboutus"
@@ -46,6 +49,36 @@
         <action
             android:id="@+id/action_contactus_to_settingsFragment"
             app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/communityPost"
+        android:name="com.example.asgm_mobile.CommunityPost"
+        android:label="community_post"
+        tools:layout="@layout/community_post" >
+        <action
+            android:id="@+id/action_communityPost_to_community"
+            app:destination="@id/community" />
+    </fragment>
+    <fragment
+        android:id="@+id/community"
+        android:name="com.example.asgm_mobile.Community"
+        android:label="communitys"
+        tools:layout="@layout/communitys" >
+        <action
+            android:id="@+id/action_community_to_communityPost"
+            app:destination="@id/communityPost" />
+        <action
+            android:id="@+id/action_community_to_eventDetails"
+            app:destination="@id/eventDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventDetails"
+        android:name="com.example.asgm_mobile.EventDetails"
+        android:label="event_details"
+        tools:layout="@layout/event_details" >
+        <action
+            android:id="@+id/action_eventDetails_to_community"
+            app:destination="@id/community" />
     </fragment>
 
 

@@ -16,7 +16,13 @@ class Community : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): ConstraintLayout {
         binding = CommunitysBinding.inflate(inflater, container, false)
 
-        binding.addBtn.setOnClickListener{add()}
+        binding.addBtn.setOnClickListener{view : View ->
+            view.findNavController().navigate(R.id.action_community_to_communityPost)
+        }
+
+        binding.eventDetailsBtn.setOnClickListener{view : View ->
+            view.findNavController().navigate(R.id.action_community_to_eventDetails)
+        }
 
         return binding.root
     }
